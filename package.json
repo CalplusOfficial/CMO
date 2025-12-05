@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/CalplusOfficial/CMO#readme",
   "dependencies": {
-    "discord.js": "^14.25.1"
+    "discord.js": "^14.25.1",
+    "package.json": "^2.0.1",
+    "sqlite3": "^5.1.6"
   }
 }

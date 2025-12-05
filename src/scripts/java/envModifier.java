@@ -1,11 +1,17 @@
-package main.java;
+// OUTDATED FILE
+// Use envModifier.js under src/main/scripts
+
+package scripts.java;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-public class EnvModifier {
+// OUTDATED FILE
+// Use envModifier.js under src/main/scripts
+
+public class envModifier {
     /**
      * Creates or updates a .env file in the project root directory.
      * @param content The content to write to the .env file.
