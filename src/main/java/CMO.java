@@ -1,4 +1,4 @@
-package main;
-public class Main {
-    
+package main.java;
+public class CMO {
+	
 }
