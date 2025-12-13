@@ -508,25 +508,6 @@ function tableInfo(db) {
     createOrUpdateTable(
         db,
         'A06_ClanWarAttackDetails',
-        `(
-
-            <<<DONT USE THIS REMOVE IT>>>
-
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            dateLogged TEXT,
-            cwSeason TEXT,
-
-            -- Player Details
-
-            -- Attack 1
-
-            -- Attack 2
-
-            -- Best Defense
-
-            -- War Score
-
-        )`,
         [
             { name: 'id', type: 'INTEGER PRIMARY KEY AUTOINCREMENT' },
             { name: 'dateLogged', type: 'TEXT' },
@@ -1353,7 +1334,7 @@ function tableInfo(db) {
 }
 
 // Get db name from command line argument
-const dbFileName = "DEVTEST.db";
+const dbFileName = "TEMPORARYNAME.db";
 if (!dbFileName) {
     console.error('Please specify a database file name.');
     process.exit(1);
